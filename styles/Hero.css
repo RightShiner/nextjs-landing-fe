@@ -1,0 +1,60 @@
+form[name=contact-form] {
+  width: 55.6%;
+  padding: 56px 5% 53px 5%;
+  background-color: #fff;
+}
+/* input::-webkit-datetime-edit {
+  color: transparent;
+  user-select: none;
+} */
+input[type=date]:required:invalid::-webkit-datetime-edit {
+  display: none;
+  color: transparent;
+}
+
+input[type=date]:focus::-webkit-datetime-edit {
+  color: black !important;
+}
+/* input::-webkit-datetime-edit-date-field {
+  display: none;
+} */
+/* .datebox{
+  display: inline-block;
+  background-color: red;
+  position: relative
+}
+.datebox::after{
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  width: 80%;
+  background-color: #fff;
+} */
+
+/* input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-date-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+} */
+
+/* #birthdate { */
+/* ::-webkit-datetime-edit-year-field:not([aria-valuenow]),
+::-webkit-datetime-edit-month-field:not([aria-valuenow]),
+::-webkit-datetime-edit-day-field:not([aria-valuenow]) {
+  color: transparent;
+} */
+/* } */
+
+/* ::-webkit-datetime-edit-year-field {
+  display: none;
+}
+
+::-webkit-datetime-edit-month-field {
+  display: none;
+}
+
+::-webkit-datetime-edit-day-field {
+  display: none;
+} */
